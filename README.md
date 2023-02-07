@@ -6,7 +6,7 @@ Flipping the card is when the user does the :hover action on an element and an a
 
 ## Screenshot
 
-![Card ui design.png](Flipping%20card%20UI%20design%20dcf748af7cc44ad79e292c1203331e21/Card_ui_design.png)
+![Card ui design.png](./images/Card%20ui%20design.png)
 
 ## What I learned
 
