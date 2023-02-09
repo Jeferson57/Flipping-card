@@ -40,6 +40,28 @@ section::after {
     background: linear-gradient(90deg, #9C27B0, #F3F5F5);
 }
 
+#flip-btn {
+    position: absolute;
+    align-self: center;
+    top: 70px;
+    width: 144px;
+    height: 52px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 24px;
+    color: #FFF;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid #FFF;
+    cursor: pointer;
+}
+
+#flip-btn:hover {
+    background-color: #FFF;
+    color: #121321;
+    font-weight: 400;
+}
+
 .container {
     position: relative;
     height: 225px;
@@ -49,7 +71,7 @@ section::after {
     transform-style: preserve-3d;
 }
 
-.container:hover {
+.flipping {
     transform: rotateY(180deg);
 }
 
